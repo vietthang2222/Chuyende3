@@ -19,3 +19,27 @@
 1. Cài đặt các thư viện cần thiết:
    ```bash
    pip install streamlit pandas matplotlib seaborn
+2. Khởi chạy ứng dụng:
+
+Bash
+streamlit run main.py
+📂 Cấu trúc dự án
+main.py: File chạy chính của ứng dụng.
+
+
+data_cleaner.py: Xử lý và làm sạch dữ liệu.
+
+
+visualizer.py: Chứa các hàm vẽ biểu đồ trực quan.
+
+
+predictor.py: Mô hình dự báo doanh số.
+
+
+### Bước 3: Đẩy file lên GitHub
+Sau khi lưu file, bạn mở Terminal và chạy các lệnh sau để cập nhật lên GitHub:
+1.  **Thêm file:** `git add README.md`
+2.  **Xác nhận:** `git commit -m "Thêm README giới thiệu dự án và phân công nhóm"`
+3.  **Đẩy lên:** `git push origin main`
+
+Khi hoàn tất, giao diện GitHub của bạn sẽ tự động hiển thị nội dung này ở trang chủ
